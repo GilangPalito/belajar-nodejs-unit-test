@@ -4,7 +4,7 @@ export const sayHelloAsync = (name) => {
             if (name) {
                 resolve(`Hello ${name}`);
             } else {
-                reject("Name is emptys");
+                reject("Name is empty");
             }
         }, 1000);
     });
